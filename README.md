@@ -21,6 +21,8 @@ Start smterminal with the `smterminal` command
 ```
 smterminal
 ```
+To stop smterminal, use `Ctrl + C` in most shell environments or `Esc` key.
+
 
 For display help page
 ```
