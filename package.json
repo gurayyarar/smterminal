@@ -1,0 +1,42 @@
+{
+  "name": "smterminal",
+  "version": "1.0.0",
+  "description": "System monitoring for terminal",
+  "main": "./dist/smterminal.js",
+  "author": "gurayyarar",
+  "license": "MIT",
+  "bin": {
+    "smterminal": "./bin/smterminal"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./bin/smterminal"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "system",
+    "monitoring",
+    "terminal",
+    "chart",
+    "dashboard",
+    "os"
+  ],
+  "bugs": {
+    "url": "https://github.com/gurayyarar/smterminal/issues"
+  },
+  "homepage": "https://github.com/gurayyarar/smterminal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurayyarar/smterminal.git"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5",
+    "fkill": "^5.3.0",
+    "systeminformation": "^3.42.0"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "devDependencies": {}
+}

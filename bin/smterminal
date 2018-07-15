@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+var module = require("../dist/smterminal.js");
+
+if (process.argv[2] === '--help') {
+    console.log(`
+        smterminal [-main|-proc|-file]
+
+        With no flags supplied smterminal runs all on default (Main Screen)
+        Adding flags will show only the windows for the flags supplied
+
+        -main: Show the main window
+        -proc: Show the running processes window
+        -file: Show the file types window
+
+        WINDOWS SHORTCUTS
+        * Main:    F2
+        * Process: F3
+        * File:    F4
+    `);
+} else {
+    var screen = process.argv[2];
+    screen = screen === undefined ? "main" : screen.replace(/-/g, "");
+    new module.SMTerminal().start(screen);
+}
