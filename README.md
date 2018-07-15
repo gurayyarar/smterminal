@@ -44,7 +44,7 @@ smterminal [-main|-proc|-file]
 There are 3 screens.
 
 ### 1) Main Screen (`F2`)
-![Main Image](https://raw.githubusercontent.com/gurayyarar/smterminal/master/documentation/screens/main.jpg)
+![Main Image](https://raw.githubusercontent.com/gurayyarar/smterminal/master/documentation/screens/main.png)
 
 You can focus the table by pressing;
 * `F6`: CPU Usage
