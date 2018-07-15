@@ -1,6 +1,6 @@
 {
   "name": "smterminal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "System monitoring for terminal on Linux, OSX and Windows",
   "main": "./dist/smterminal.js",
   "author": "gurayyarar",
@@ -22,7 +22,7 @@
     "os"
   ],
   "bugs": {
-    "url": "https://github.com/gurayyarar/smterminal/issues"
+    "url": "https://github.com/gurayyarar/smt<erminal/issues"
   },
   "homepage": "https://github.com/gurayyarar/smterminal",
   "repository": {

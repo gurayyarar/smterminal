@@ -15,8 +15,8 @@ if (process.argv[2] === '--help') {
 
         WINDOWS SHORTCUTS
         * Main:    F2
-        * Process: F3
-        * File:    F4
+        * File:    F3
+        * Process: F4
     `);
 } else {
     var screen = process.argv[2];
