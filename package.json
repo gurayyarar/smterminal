@@ -1,7 +1,7 @@
 {
   "name": "smterminal",
   "version": "1.0.0",
-  "description": "System monitoring for terminal",
+  "description": "System monitoring for terminal on Linux, OSX and Windows",
   "main": "./dist/smterminal.js",
   "author": "gurayyarar",
   "license": "MIT",
